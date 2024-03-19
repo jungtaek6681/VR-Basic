@@ -1366,6 +1366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6153644700263933845}
+  - component: {fileID: 8344771704917705587}
   - component: {fileID: 2217579834392112100}
   m_Layer: 0
   m_Name: Right Controller
@@ -1392,6 +1393,33 @@ Transform:
   - {fileID: 7099313359925911297}
   m_Father: {fileID: 3160358444421190585}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8344771704917705587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675857616305799507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80daee83c5155f14c81cd9b59a598b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayInteractor: {fileID: 7882143663962459122}
+  teleportInteractor: {fileID: 6907157474286101136}
+  teleportModeActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Teleport Mode Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8641853c-a85c-490c-ba20-ec1d3bf77ed9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!114 &2217579834392112100
 MonoBehaviour:
   m_ObjectHideFlags: 0
